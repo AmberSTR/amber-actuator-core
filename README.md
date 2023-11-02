@@ -244,7 +244,7 @@ print("current_mode:", now)
 | **Description** | Query the current number of pole of the motor |
 | **Permission**  |                    get/set                    |
 | **Is Float**    |                     False                     |
-| **Return**      |        number  **python端返回有问题**         |
+| **Return**      |                    number                     |
 
 ```
 import amber_actuator as a
@@ -264,13 +264,13 @@ print("current pole_number:", now)
 
 
 
-| Parameter       |                      rotation_direction                      |
-| :-------------- | :----------------------------------------------------------: |
-| **Description** |      Query the current rotation direction of the motor.      |
-| **Permission**  |                           get/set                            |
-| **Is Float**    |                            False                             |
-| **Return**      |   1 : Counterclockwise is positive, clockwise is negative    |
-|                 | 0 : Clockwise is positive, counterclockwise is negative   **???  python return 64** |
+| Parameter       |                   rotation_direction                    |
+| :-------------- | :-----------------------------------------------------: |
+| **Description** |   Query the current rotation direction of the motor.    |
+| **Permission**  |                         get/set                         |
+| **Is Float**    |                          False                          |
+| **Return**      | 1 : Counterclockwise is positive, clockwise is negative |
+|                 | 0 : Clockwise is positive, counterclockwise is negative |
 
 ```
 import amber_actuator as a
@@ -319,7 +319,7 @@ print("current zero_position:", now)
 | **Description** | Query the current number of gears of the motor |      |
 | **Permission**  |                    get/set                     |      |
 | **Is Float**    |                     False                      |      |
-| **Return**      |         number  **python端返回有问题**         |      |
+| **Return**      |                     number                     |      |
 
 ```
 import amber_actuator as a
@@ -504,12 +504,12 @@ while True:
 
 ```
 
-| **Parameter**   |                         kp/ki                         |
-| :-------------- | :---------------------------------------------------: |
-| **Description** |  Set/get the speed loop PID parameters of the motor   |
-| **Permission**  |                        get/set                        |
-| **Is Float**    |                         True                          |
-| **Return**      | success: your_value           fail: false  python返回 |
+| **Parameter**   |                       kp/ki                        |
+| :-------------- | :------------------------------------------------: |
+| **Description** | Set/get the speed loop PID parameters of the motor |
+| **Permission**  |                      get/set                       |
+| **Is Float**    |                        True                        |
+| **Return**      |     success: your_value           fail: false      |
 
 ```
 import amber_actuator as a
@@ -552,7 +552,7 @@ print("Current speed ki value:", now)
 | **Description** | Set/Get the acceleration/deceleration parameters of the motor |
 | **Permission**  |                           get/set                            |
 | **Is Float**    |                             True                             |
-| **Return**      |    success: your_value           fail: false  python返回     |
+| **Return**      |          success: your_value           fail: false           |
 
 ```
 import amber_actuator as a

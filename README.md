@@ -67,9 +67,9 @@ You can see the messages flowing across the screen if everything works fine.
 ### Download Actuator Tuning Tool
 
 ```bash
-mkdir MiniHub
-cd MiniHub
-wget https://raw.githubusercontent.com/AmberSTR/amber-actuator-core/main/MiniHub
+mkdir actuator_tuning_tool
+cd actuator_tuning_tool
+wget https://raw.githubusercontent.com/AmberSTR/amber-actuator-core/main/actuator_tuning_tool
 ```
 
 ### Start server
@@ -77,8 +77,8 @@ wget https://raw.githubusercontent.com/AmberSTR/amber-actuator-core/main/MiniHub
 Perhaps you need to enable administrator privileges
 
 ```
-sudo chmod 777 ./MiniHub 
-nohup ./MiniHub &
+sudo chmod 777 ./actuator_tuning_tool 
+nohup ./actuator_tuning_tool &
 ```
 
 ### Install Python Interface

@@ -1,8 +1,6 @@
-# MiniHub Docs
+# README
 
-[TOC]
-
-### System requirement
+### System Requirement
 
 Ubuntu 22.04
 

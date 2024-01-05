@@ -150,40 +150,43 @@ wget https://raw.githubusercontent.com/AmberSTR/amber_actuator_tools/main/restor
 
 ### Configurable parameter
 
-| Main Category         | Detailed Category   | Permission | Is Float      |
-| --------------------- | ------------------- | ---------- | ------------- |
-| attribute             | Status              | get/set    |               |
-|                       | version             | get        |               |
-|                       | mode                | get/set    | FALSE         |
-|                       | pole_number         | get/set    | FALSE         |
-|                       | rotation_direction  | get/set    | FALSE         |
-|                       | zero_position       | get/set    | TRUE          |
-|                       | gear                | get/set    | FALSE         |
-|                       | CountNumber         | get ONLY   | TRUE          |
-| position              | now                 | get ONLY   | TRUE          |
-|                       | target              | set ONLY   | TRUE          |
-|                       | Kp                  | get/set    | TRUE          |
-|                       | Ki                  | get/set    | TRUE          |
-|                       | up_limit            | get/set    | TRUE          |
-|                       | down_limit          | get/set    | TRUE          |
-|                       | limit_switch        | get/set    | FALSE         |
-| speed                 | now                 | get ONLY   | FALSE (True)* |
-|                       | target              | set ONLY   | TRUE          |
-|                       | kp                  | get/set    | TRUE          |
-|                       | ki                  | get/set    | TRUE          |
-|                       | acceleration        | get/set    | TRUE          |
-|                       | deceleration        | get/set    | TRUE          |
-|                       | speed_limit         | get/set    | TRUE          |
-| current               | now                 | get ONLY   | TRUE          |
-|                       | target              | set ONLY   | TRUE          |
-|                       | kp                  | get/set    | TRUE          |
-|                       | ki                  | get/set    | TRUE          |
-|                       | current_limit       | get/set    | TRUE          |
-|                       | VotageLimit         | get/set    | TRUE          |
-| Built-in     Commands | InitialZeroPosition | set ONLY   |               |
-|                       | Calibration         | set ONLY   |               |
+| Main Category      | Detailed Category   | Permission | Is Float      |
+| ------------------ | ------------------- | ---------- | ------------- |
+| attribute          | Status              | get/set    |               |
+|                    | version             | get        |               |
+|                    | mode                | get/set    | FALSE         |
+|                    | pole_number         | get/set    | FALSE         |
+|                    | rotation_direction  | get/set    | FALSE         |
+|                    | zero_position       | get/set    | TRUE          |
+|                    | gear                | get/set    | FALSE         |
+|                    | CountNumber         | get ONLY   | TRUE          |
+| position           | now                 | get ONLY   | TRUE          |
+|                    | target              | set ONLY   | TRUE          |
+|                    | Kp                  | get/set    | TRUE          |
+|                    | Ki                  | get/set    | TRUE          |
+|                    | up_limit            | get/set    | TRUE          |
+|                    | down_limit          | get/set    | TRUE          |
+|                    | limit_switch        | get/set    | FALSE         |
+| speed              | now                 | get ONLY   | FALSE (True)* |
+|                    | target              | set ONLY   | TRUE          |
+|                    | kp                  | get/set    | TRUE          |
+|                    | ki                  | get/set    | TRUE          |
+|                    | acceleration        | get/set    | TRUE          |
+|                    | deceleration        | get/set    | TRUE          |
+|                    | speed_limit         | get/set    | TRUE          |
+| current            | now                 | get ONLY   | TRUE          |
+|                    | target              | set ONLY   | TRUE          |
+|                    | kp                  | get/set    | TRUE          |
+|                    | ki                  | get/set    | TRUE          |
+|                    | current_limit       | get/set    | TRUE          |
+|                    | VotageLimit         | get/set    | TRUE          |
+| Built-in  Commands | Save                | set ONLY   |               |
+|                    | InitialZeroPosition | set ONLY   |               |
+|                    | Calibration         | set ONLY   |               |
 
 \*Depend on Actuator Version
+
+**Note: Run save() to save the parameters persistently. Otherwise, the parameters are temporarily saved and will be reset after a power outage.**
 
 ### Python Example
 

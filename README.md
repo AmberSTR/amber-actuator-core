@@ -192,6 +192,8 @@ wget https://raw.githubusercontent.com/AmberSTR/amber_actuator_tools/main/restor
 
 *Updated at  V 0.1.0*
 
+The calibrate() function will cause the actuator to give up maintaining its current position( or speed/current ), please pay attention to safety.
+
 After executing the calibrate() function, please wait for about six seconds and query the `attribute.zero_position` again. If there is a slight change, it means the calibration has been successful.
 
 ```python

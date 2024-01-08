@@ -182,11 +182,31 @@ wget https://raw.githubusercontent.com/AmberSTR/amber_actuator_tools/main/restor
 |                    | VotageLimit         | get/set    | TRUE          |
 | Built-in  Commands | Save                | set ONLY   |               |
 |                    | InitialZeroPosition | set ONLY   |               |
-|                    | Calibration         | set ONLY   |               |
+|                    | Calibrate           | set ONLY   |               |
 
 \*Depend on Actuator Version
 
 **Note: Run save() to save the parameters persistently. Otherwise, the parameters are temporarily saved and will be reset after a power outage.**
+
+### Calibrate
+
+*Updated at  V 0.1.0*
+
+After executing the calibrate() function, please wait for about six seconds and query the `attribute.zero_position` again. If there is a slight change, it means the calibration has been successful.
+
+```python
+>>> import amber_actuator as a
+>>> j = a.AmberActuator(1)
+>>> j.attribute.zero_position
+3623.0
+>>> j.calibrate()
+True
+>>> j.attribute.zero_position
+3620.875
+>>> 
+```
+
+
 
 ### Python Example
 

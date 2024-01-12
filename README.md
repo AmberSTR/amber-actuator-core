@@ -69,7 +69,7 @@ You can see the messages flowing across the screen if everything works fine.
 ```bash
 mkdir actuator_tuning_tool
 cd actuator_tuning_tool
-wget [https://raw.githubusercontent.com/AmberSTR/amber-actuator-core/main/actuator_tuning_tool](https://raw.githubusercontent.com/AmberSTR/amber-actuator-core/ARM/actuator_tuning_tool)
+wget https://raw.githubusercontent.com/AmberSTR/amber-actuator-core/ARM/actuator_tuning_tool
 ```
 
 ### Start server

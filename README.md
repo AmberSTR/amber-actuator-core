@@ -69,7 +69,10 @@ mkdir actuator_tuning_tool
 cd actuator_tuning_tool
 wget https://raw.githubusercontent.com/AmberSTR/amber-actuator-core/main/actuator_tuning_tool
 ```
-
+for Raspberry Pi , download arm version
+```bash
+wget https://raw.githubusercontent.com/AmberSTR/amber-actuator-core/main/actuator_tuning_tool_arm
+```
 ### Start server
 
 Perhaps you need to enable administrator privileges

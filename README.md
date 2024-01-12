@@ -8,6 +8,8 @@ Python >= 3.10
 
 Internet Connection ( only for installation )
 
+Tested on Raspberry Pi 4 Model B, Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-1037-raspi aarch64)
+
 ### Connect Mini Hub to your actuator
 
 ![connect](actuator-tuning-tool.assets/connect-1698915695644-2.png)

@@ -8,6 +8,8 @@ Python >= 3.10
 
 Internet Connection ( only for installation )
 
+Tested on Ubuntu 22.04.2 LTS (GNU/Linux 6.2.0-37-generic x86_64)
+
 ### Connect Mini Hub to your actuator
 
 ![connect](actuator-tuning-tool.assets/connect-1698915695644-2.png)
@@ -69,10 +71,7 @@ mkdir actuator_tuning_tool
 cd actuator_tuning_tool
 wget https://raw.githubusercontent.com/AmberSTR/amber-actuator-core/main/actuator_tuning_tool
 ```
-for Raspberry Pi , download ARM version
-```bash
-wget https://raw.githubusercontent.com/AmberSTR/amber-actuator-core/main/actuator_tuning_tool_arm
-```
+
 ### Start server
 
 Perhaps you need to enable administrator privileges
@@ -81,12 +80,7 @@ Perhaps you need to enable administrator privileges
 sudo chmod 777 ./actuator_tuning_tool 
 nohup ./actuator_tuning_tool &
 ```
-for ARM version
 
-```
-sudo chmod 777 ./actuator_tuning_tool_arm
-nohup ./actuator_tuning_tool &
-```
 
 ### Install Python Interface
 

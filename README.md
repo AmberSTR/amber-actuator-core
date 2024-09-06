@@ -12,7 +12,7 @@ Tested on Ubuntu 22.04.2 LTS (GNU/Linux 6.2.0-37-generic x86_64)
 
 ### Connect Mini Hub to your actuator
 
-![connect](actuator-tuning-tool.assets/connect-1698915695644-2.png)
+![connect](actuator-tuning-tool.assets/2024-09-06_12-35-08.png)
 
 ### Install dependencies
 

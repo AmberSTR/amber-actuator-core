@@ -1,12 +1,17 @@
 # README
 
-### System Requirement
+### Control Unit Requirement.
+> Any computer with USB port can be connected with the AMBER Robotic Actuator.
 
-Ubuntu 22.04
+> AMBER Master Control Unit is the best one with native motion control system for single actuator or multi-actuators like Robotic arm, humanoid, mobile robot and other automation integration. 
 
-Python >= 3.10
+### System Rquirement
 
-Internet Connection ( only for installation )
+> Ubuntu 22.04
+
+> Python >= 3.10
+
+> Internet Connection ( only for installation )
 
 Tested on Ubuntu 22.04.2 LTS (GNU/Linux 6.2.0-37-generic x86_64)
 
